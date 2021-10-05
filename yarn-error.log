@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/xx23xy/.nodebrew/node/v16.4.2/bin/node /Users/xx23xy/.nodebrew/current/bin/yarn global add gulp-cli
+
+PATH: 
+  /Users/xx23xy/.nodebrew/current/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/xx23xy/.nodebrew/current/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.4.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/xx23xy/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/xx23xy/.nodebrew/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/xx23xy/.nodebrew/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/xx23xy/.nodebrew/node/v16.4.2/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "gulp_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "gulp": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
